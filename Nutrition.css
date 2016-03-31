@@ -1,0 +1,64 @@
+.jumbotron {
+  background-image:url('http://us.myprotein.com/thezone/wp-content/uploads/2015/03/prework.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+	position: relative;
+	top: 325px;
+  right: 70px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    z-index: 40;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#6b6b47 !important;
+}
+
+
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+
+.jumbotron h1, p {
+    color: black;
+}
+
+.nutrition {
+  margin: 40px;
+}
+
+.row {
+  margin: 40px;
+}
+
+.menu h1 {
+  margin-left: 40px;
+}
+
+#food {
+  margin-top: 40px;
+}
