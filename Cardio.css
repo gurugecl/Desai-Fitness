@@ -1,0 +1,61 @@
+.jumbotron {
+  background-image:url('https://www.t-nation.com/system/publishing/article_assets/3297/original/Bodybuilder-Cardio.jpg?ts=1438121289');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+	position: relative;
+	top: 325px;
+  right: 80px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 40;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#6b6b47 !important;
+}
+
+
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+.row {
+  margin: 40px;
+}
+
+.types {
+  margin: 40px;
+}
+
+#pace {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.col-sm-img img {
+  position: relative;
+  right: -30px;
+}
