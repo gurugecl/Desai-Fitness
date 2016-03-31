@@ -1,0 +1,77 @@
+.jumbotron {
+  background-image:url('http://cdn-maf1.heartyhosting.com/sites/muscleandfitness.com/files/media/Barbell%20Shoulder%20Press_3.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  top: 325px;
+  right: 70px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 40;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#6b6b47 !important;
+}
+
+
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+
+.jumbotron h1, p {
+    color: white;
+}
+
+.image {
+  position: relative;
+  top: 40px;
+}
+
+#muscles {
+  margin-left: 25px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#excercises {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.col-sm-4 li {
+  position:relative;
+  left: 40px;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.videos h1 {
+  margin-bottom: 50px;
+}
