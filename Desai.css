@@ -1,0 +1,48 @@
+.jumbotron {
+  background-image:url('http://3.bp.blogspot.com/-KJ4uGtvnayM/Vb5J7eBVCBI/AAAAAAAAA-M/xq-FnPvRmwA/s1600/6315_507238042667170_674983312_n.jpg');
+  height: 535px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+	position: relative;
+	right: -280px;
+    top: 200px;
+}
+
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#6b6b47 !important;
+}
+
+
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+     margin-bottom: 0;
+    border: 0;
+   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+body {
+   /* font: 400 15px/1.8 Lato, sans-serif; */
+    color: white;
+}
+
