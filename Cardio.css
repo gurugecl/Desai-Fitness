@@ -55,7 +55,8 @@
   margin-top: 40px;
 }
 
-.col-sm-img img {
+.hiit img {
   position: relative;
-  right: -30px;
+  right: -130px;
+  bottom: -20px;
 }
