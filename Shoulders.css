@@ -75,3 +75,18 @@
 .videos h1 {
   margin-bottom: 50px;
 }
+
+.col-sm-4 h1 {
+  position: relative;
+  top: 50px;
+}
+
+#left {
+  position:relative;
+  left: 190px;
+}
+
+#right {
+  position:relative;
+  left: -190px;
+}
