@@ -62,3 +62,9 @@
 #food {
   margin-top: 40px;
 }
+
+.nutrition img {
+  position: relative;
+  right:-110px;
+  top: -20px;
+}
