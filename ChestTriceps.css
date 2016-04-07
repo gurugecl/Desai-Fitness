@@ -1,153 +1,101 @@
-<!DOCTYPE html>
-<html ;ang="en">
-<head>
-	<title>Desai Fitness</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="ChestTriceps.css">
+.jumbotron {
+  background-image:url('http://bodybuildingindex.com/wp-content/uploads/2015/06/big-chest-workout-730x430.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+.container {
+	position: relative;
+	top: 325px;
+  right: 70px;
+}
 
-    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 40;
+}
 
-</head>
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
 
-<nav class="navbar navbar-inverse">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#">DESAI Fitness</a>
-		</div>
-		<ul class="nav navbar-nav">
-			<li><a href="Desai.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-			<li><a href="Nutrition.html">Nutrition</a></li>
-			<li class="active"><a href="#">Chest/Triceps</a></li>
-			<li><a href="BackBiceps.html">Back/Biceps</a></li>
-			<li><a href="Shoulders.html">Shoulders/Abs</a></li>
-			<li><a href="Legs.html">Legs</a></li>
-			<li><a href="Cardio.html">Cardio</a></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-		</ul>
-	</div>
-</nav>
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
 
-<div class="jumbotron">
-	<div class="container">
-		<h1>Chest + Tricep Workout</h1>
-		<p>Day One</p>
-	</div>
-</div>
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#6b6b47 !important;
+}
 
-<div class="row">
-	<div class="col-sm-5">
-		<div id="muscles">
-			<h1>Major Muscles Worked</h1>
-				<ul>
-					<li>Pectorals</li>
-					<li>Biceps</li>
-				</ul>
-		</div>
-		<div id="excercises">
-			<h1>Excercises</h1>
-				<ul>
-					<li>Bench Press</li>
-					<li>Incline Bench Press</li>
-					<li>Dumbell Flies</li>
-					<li>Tricep Pushdown</li>
-					<li>French Press</li>
-					<li>Tricep Kickbacks</li>
-				</ul>
-		</div>
-	</div>
-<div class="col-sm-7">
-<div class="image">
-	<img src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Chest-full.jpg" alt="Chest" width="350" height="500">
-	<img src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Triceps-full.jpg" alt="Chest" width="350" height="500">
-</div>
-</div>
-</div>
 
-<div class="videos text-center">
-<div class="row">
-<div class="col-sm-4"  id="left">
-<img src="http://fitnessesportenutricao.com/wp-content/uploads/2016/01/Supino_Reto_com_Barra.gif">
-</div>
-<div class="col-sm-4">
-<h1>Pectorals</h1>
-</div>
-<div class="col-sm-4" id="right">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_inc_chest_fly.gif.pagespeed.ce.kvp_b9e4JT.gif">
-</div>
-</div>
-<div class="row">
-<div class="col-sm-4">
-<h2>Bench Press</h2>
-<video id="vid1" width="320" height="240" controls>
-  <source src="C:\Users\Chandika Guruge\Downloads\BenchPress.mp4" type="video/mp4">
-</video>
-</div>
-<div class="col-sm-4">
-<h2>Incline Bench Press</h2>
-<video id="vid2" width="320" height="240" controls>
-  <source src="C:\Users\Chandika Guruge\Downloads\InclineBench.mp4" type="video/mp4">
-</video>
-</div>
-<div class="col-sm-4">
-<h2>Dumbbell Flies</h2>
-<video id="vid3" width="320" height="240" controls>
-  <source src="C:\Users\Chandika Guruge\Downloads\Flyes.mp4" type="video/mp4">
-</video>
-</div>
-</div>
 
-<div class="row text-center">
-<div class="col-sm-4" id="left">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_tricep_extension.gif.pagespeed.ce.0u7-_1KsEq.gif">
-</div>
-<div class="col-sm-4">
-<h1>Triceps</h1>
-</div>
-<div class="col-sm-4" id="right">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_kickbacks.gif.pagespeed.ce.6UdH9GLcDP.gif">
-</div>
-</div>
-<div class="row">
-<div class="col-sm-4">
-<h2>Tricep Pushdown</h2>
-<video id="vid4" width="320" height="240" controls>
-  <source src="C:\Users\Chandika Guruge\Downloads\TricepPushdown.mp4" type="video/mp4">
-</video>
-</div>
-<div class="col-sm-4">
-<h2>French Press</h2>
-<video id="vid5" width="320" height="240" controls>
-  <source src="C:\Users\Chandika Guruge\Downloads\TricepExtension.mp4" type="video/mp4">
-</video>
-</div>
-<div class="col-sm-4">
-<h2>Tricep Kickbacks</h2>
-<video id="vid6" width="320" height="240" controls>
-  <source src="C:\Users\Chandika Guruge\Downloads\TricepKickbacks.mp4" type="video/mp4">
-</video>
-</div>
-</div>
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
 
-<script>
-document.getElementById('vid1').currentTime = 4;
-document.getElementById('vid2').currentTime = 4;
-document.getElementById('vid3').currentTime = 4;
-document.getElementById('vid4').currentTime = 4;
-document.getElementById('vid5').currentTime = 5;
-document.getElementById('vid6').currentTime = 4;
-</script>
-</body>
 
-</html>
+.jumbotron h1, p {
+    color: white;
+}
 
+.image {
+  position: relative;
+  top: 40px;
+}
+
+#muscles {
+  margin-left: 25px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#excercises {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.col-sm-4 li {
+  position:relative;
+  left: 40px;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.videos h1 {
+  margin-bottom: 50px;
+}
+
+.col-sm-4 h1 {
+  position: relative;
+  top: 50px;
+}
+
+#left {
+  position:relative;
+  left: 190px;
+}
+
+#right {
+  position:relative;
+  left: -190px;
+}
+
+h4 {
+  position: relative;
+  top: 20px;
+}
+
+.row p {
+  color: black;
+}
