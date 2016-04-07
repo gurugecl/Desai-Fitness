@@ -100,3 +100,12 @@
   position:relative;
   left: -160px;
 }
+
+h4 {
+  position: relative;
+  top: 20px;
+}
+
+.row p {
+  color: black;
+}
