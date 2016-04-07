@@ -91,3 +91,12 @@
   position:relative;
   left: -190px;
 }
+
+h4 {
+  position: relative;
+  top: 20px;
+}
+
+.row p {
+  color: black;
+}
