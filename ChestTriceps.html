@@ -5,11 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="ChestTriceps.css">
+	<link rel="stylesheet" type="text/css" href="ChestTricepsII.css">
 
 	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 
@@ -21,7 +23,14 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">DESAI Fitness</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 		</div>
+		<div class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">
 			<li><a href="Desai.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 			<li><a href="Nutrition.html">Nutrition</a></li>
@@ -35,16 +44,18 @@
 			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 		</ul>
+		</div>
 	</div>
 </nav>
 
 <div class="jumbotron">
-	<div class="container">
+	<div class="container-fluid">
 		<h1>Chest + Tricep Workout</h1>
 		<p>Day One</p>
 	</div>
 </div>
 
+<div class="container">
 <div class="row">
 	<div class="col-sm-5">
 		<div id="muscles">
@@ -67,25 +78,28 @@
 		</div>
 	</div>
 <div class="col-sm-7">
-<div class="image">
-	<img src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Chest-full.jpg" alt="Chest" width="350" height="500">
-	<img src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Triceps-full.jpg" alt="Chest" width="350" height="500">
+	<img class="img-responsive" src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Chest-full.jpg" alt="Chest" width="350" height="500">
+	<img class="img-responsive" src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Triceps-full.jpg" alt="Chest" width="350" height="500">
 </div>
 </div>
 </div>
 
 <div class="videos text-center">
+<div class="container">
 <div class="row">
 <div class="col-sm-4"  id="left">
-<img src="http://fitnessesportenutricao.com/wp-content/uploads/2016/01/Supino_Reto_com_Barra.gif">
+<img class="img-responsive" src="http://fitnessesportenutricao.com/wp-content/uploads/2016/01/Supino_Reto_com_Barra.gif">
 </div>
 <div class="col-sm-4">
 <h1>Pectorals</h1>
 </div>
 <div class="col-sm-4" id="right">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_inc_chest_fly.gif.pagespeed.ce.kvp_b9e4JT.gif">
+<img class="img-responsive" src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_inc_chest_fly.gif.pagespeed.ce.kvp_b9e4JT.gif">
 </div>
 </div>
+</div>
+
+<div class="container">
 <div class="row">
 <div class="col-sm-4">
 <h2>Bench Press</h2>
@@ -93,6 +107,8 @@
   <source src="C:\Users\Chandika Guruge\Downloads\BenchPress.mp4" type="video/mp4">
 </video>
 </div>
+
+
 <div class="col-sm-4">
 <h2>Incline Bench Press</h2>
 <video id="vid2" width="320" height="240" controls>
@@ -106,8 +122,10 @@
 </video>
 </div>
 </div>
+</div>
 
 <h4>Excercise Tracker: Click Away To Keep Track</h4>
+<div class="container">
 <div class="row">
 <div class="col-sm-4">
 <h5>Bench Press: 4 Sets X 10 Reps</h5>
@@ -131,18 +149,22 @@
 <p>Dumbell Flies 10 Reps</p>
 </div>
 </div>
+</div>
 
+<div class="container">
 <div class="row text-center">
 <div class="col-sm-4" id="left">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_tricep_extension.gif.pagespeed.ce.0u7-_1KsEq.gif">
+<img class="img-responsive" src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_tricep_extension.gif.pagespeed.ce.0u7-_1KsEq.gif">
 </div>
 <div class="col-sm-4">
 <h1>Triceps</h1>
 </div>
 <div class="col-sm-4" id="right">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_kickbacks.gif.pagespeed.ce.6UdH9GLcDP.gif">
+<img class="img-responsive" src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_kickbacks.gif.pagespeed.ce.6UdH9GLcDP.gif">
 </div>
 </div>
+</div>
+<div class="container">
 <div class="row">
 <div class="col-sm-4">
 <h2>Tricep Pushdown</h2>
@@ -163,7 +185,9 @@
 </video>
 </div>
 </div>
+</div>
 <h4>Excercise Tracker: Click Away To Keep Track</h4>
+<div class="container">
 <div class="row">
 <div class="col-sm-4">
 <h5>Tricep Pushdown: 4 Sets X 10 Reps</h5>
@@ -187,42 +211,48 @@
 <p>Tricep Kickbacks 10 Reps</p>
 </div>
 </div>
+</div>
 
 <div class="gallery" align="center">
 	<h1>Additional Exercises</h1>
 	<h2>Chest</h2>
 	<br/>
-	
+	<div class="container">
+	<div class="row">
+	<div class="col-sm-12">
 	<div class="top">
 	<div class="thumbnails">
-		<div class="img">
+		<div class=img-responsive">
 		<div class="desc">Cable Crossover</div>
 		<img onmouseover="preview.src=img1.src" name="img1" src="http://www.muscleandperformance.com/content/content/11115/cable-crossover.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive">
 		<div class="desc">Chest Press</div>
 		<img onmouseover="preview.src=img2.src" name="img2" src="http://cms.bbcomcdn.com/fun/images/2014/chest-workout-hunter-labradas-5-moves-to-powerful-pecs-4.jpg" alt="" width="125"/>
 		</div>
 		
-		<div class="img">
+		<div class="img-responsive">
 		<div class="desc">Incline Flies</div>
 		<img onmouseover="preview.src=img3.src" name="img3" src="http://cms.bbcomcdn.com/fun/images/2015/pec-blastin-101_11.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive">
 		<div class="desc">Dumbell Pullover</div>
 		<img onmouseover="preview.src=img4.src" name="img4" src="http://www.muscleandperformance.com/content/content/11115/dumbbell-pullover.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive">
 		<div class="desc">Dumbell Press</div>
 		<img onmouseover="preview.src=img5.src" name="img5" src="http://cms.bbcomcdn.com/fun/images/2015/10-best-chest-exercises-for-building-muscle-graphics-flat-bench-dumbbell-press-c.jpg" alt="" width="125"/>
 		</div>
 		</div>
-
+		</div>
+		</div>
+		</div>
 	</div><br/>
 
+<div class="container">
 <div class="row">
 
 <div class="col-sm-1">
@@ -231,7 +261,7 @@
 
 <div class="col-sm-10" id="holder">
 <div class="preview" align="center">
-<img name="preview" src="http://cms.bbcomcdn.com/fun/images/2015/10-best-chest-exercises-for-building-muscle-graphics-flat-bench-dumbbell-press-c.jpg" alt="" height="500" id="slideshow"/>
+<img class="img-responsive" name="preview" src="http://cms.bbcomcdn.com/fun/images/2015/10-best-chest-exercises-for-building-muscle-graphics-flat-bench-dumbbell-press-c.jpg" alt="" height="500" id="slideshow"/>
 </div>
 </div>
 
@@ -240,34 +270,39 @@
 </div>
 
 </div>
-
+</div>
+	<div class="container">
+	<div class="row">
+	<div class="col-sm-12">
 	<div class="bottom">
 	<div class="thumbnails">
-		<div class="img">
+		<div class="img-responsive">
 		<img onmouseover="preview.src=img6.src" name="img6" src="http://cms.bbcomcdn.com/fun/images/2014/8-effective-arms-exercises-you-have-to-try-2.jpg" alt="" width="125"/>
 		<div class="desc">Tricep Extension</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive">
 		<img onmouseover="preview.src=img7.src" name="img7" src="http://cms.bbcomcdn.com/fun/images/2014/8-effective-arms-exercises-you-have-to-try-1.jpg" alt="" width="125"/>
 		<div class="desc">Skull Crushers</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive">
 		<img onmouseover="preview.src=img8.src" name="img8" src="http://cms.bbcomcdn.com/fun/images/2014/finishing-moves_torching-triceps_graphics-1.jpg" alt="" width="125"/>
 		<div class="desc">Rope Pulldown</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive">
 		<img onmouseover="preview.src=img9.src" name="img9" src="http://cms.bbcomcdn.com/fun/images/2014/squat-deadlift-bench-press-only-better-graphics-3.jpg" alt="" width="125"/>
 		<div class="desc">Tricep Bench Press</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive">
 		<img onmouseover="preview.src=img10.src" name="img10" src="http://cms.bbcomcdn.com/fun/images/2015/6-strategies-to-target-your-triceps-lateral-head-and-build-bigger-arms_graphics_cellucor-machine-dip.jpg" alt="" width="125"/>
 		<div class="desc">Machine Dip</div>
 		</div>
-
+		</div>
+		</div>
+		</div>
 		</div>
 		</div>
 
@@ -285,7 +320,7 @@ document.getElementById('vid4').currentTime = 4;
 document.getElementById('vid5').currentTime = 5;
 document.getElementById('vid6').currentTime = 4;
 </script>
-<script src="ChestTriceps.js"></script> 
+<script src="ChestTricepsII.js"></script> 
 </body>
 </html>
 
