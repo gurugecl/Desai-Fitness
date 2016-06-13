@@ -19,6 +19,8 @@
     z-index: 40;
 }
 
+
+
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
@@ -111,12 +113,85 @@ display: inline-block;
 
 
 #slideshow {  
-max-height:500px; 
+height:500px; 
 width:680px; 
 }
+
+@media (max-width: 480px){
+  #slideshow {  
+height:250px; 
+width:680px; 
+}
+}
+
 
 #bicep {
   margin: 60px;
 }
 
 
+ @media (min-width: 1100px) {
+
+#rightArrow {
+  position: relative;
+  top: 230px;
+  right: 160px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+#leftArrow {
+  position: relative;
+  top: 230px;
+  right: -140px;
+  margin-right: 60px;
+  cursor: pointer;
+}}
+
+@media (min-width: 769px) and (max-width: 1099px) {
+#rightArrow {
+  position: relative;
+  top: 230px;
+  right: 80px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+#leftArrow {
+  position: relative;
+  top: 230px;
+  right: -40px;
+  margin-right: 60px;
+  cursor: pointer;
+}}
+
+@media (max-width: 768px){
+  #rightArrow {
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#leftArrow {
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+}
+
+@media (min-width: 1150px){
+
+#left {
+  position: relative;
+  left: 150px;
+}
+
+#right {
+  position: relative;
+  left: -150px;
+}
+}
+
+@media (min-width: 768px) {
+  .col-sm-2 {
+    position: relative;
+    top: 40px;
+  }
+}
