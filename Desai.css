@@ -1,6 +1,8 @@
 .jumbotron {
   background-image:url('http://3.bp.blogspot.com/-KJ4uGtvnayM/Vb5J7eBVCBI/AAAAAAAAA-M/xq-FnPvRmwA/s1600/6315_507238042667170_674983312_n.jpg');
-  height: 600px;
+  position: fixed;
+  height: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
