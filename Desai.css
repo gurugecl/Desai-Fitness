@@ -5,13 +5,20 @@
   background-size: cover;
 }
 
-@media (min-width: 600px){
+
 h1, p {
 	position: relative;
-	right: -280px;
-    top: 200px;
-}}
+	text-align: center;
+  top: 200px;
+}
 
+@media (min-width: 768px){
+p {
+  position: relative;
+  text-align: center;
+  right: 80px;
+  top: 200px;
+}}
 
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand { 
