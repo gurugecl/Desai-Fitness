@@ -1,15 +1,16 @@
 .jumbotron {
   background-image:url('http://3.bp.blogspot.com/-KJ4uGtvnayM/Vb5J7eBVCBI/AAAAAAAAA-M/xq-FnPvRmwA/s1600/6315_507238042667170_674983312_n.jpg');
-  height: 535px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.container {
+@media (min-width: 600px){
+h1, p {
 	position: relative;
 	right: -280px;
     top: 200px;
-}
+}}
 
 
 /* Add a gray color to all navbar links */
