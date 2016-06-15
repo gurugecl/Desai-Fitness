@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ;ang="en">
+<html lang="en">
 <head>
 	<title>Desai Fitness</title>
 	<meta charset="utf-8">
@@ -21,7 +21,14 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">DESAI Fitness</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 		</div>
+		<div class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">
 			<li><a href="Desai.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 			<li><a href="Nutrition.html">Nutrition</a></li>
@@ -35,19 +42,20 @@
 			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 		</ul>
+		</div>
 	</div>
 </nav>
 
 <div class="jumbotron">
-	<div class="container">
+	<div class="container-fluid">
 		<h1>Shoulders + Abs</h1>
 		<p>Day Four</p>
 	</div>
 </div>
 
-
+<div class="container-fluid">
 <div class="row">
-	<div class="col-sm-5">
+	<div class="col-sm-4">
 		<div id="muscles">
 			<h1>Major Muscles Worked</h1>
 				<ul>
@@ -67,48 +75,61 @@
 				</ul>
 		</div>
 	</div>
-<div class="col-sm-7">
-<div class="image">
-	<img src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Shoulders-full.jpg" alt="Shoulders" width="350" height="500">
-	<img src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Abs-full.jpg" alt="Abs" width="350" height="500">
+<div class="col-sm-8">
+	<img class="img-responsive" src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Shoulders-full.jpg" alt="Shoulders" width="350" height="500">
+	<img class="img-responsive" src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Abs-full.jpg" alt="Abs" width="350" height="500">
 </div>
 </div>
 </div>
 
 <div class="videos text-center">
+<div class="container-fluid">
 <div class="row">
-<div class="col-sm-4" id="left">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_lat_raise.gif.pagespeed.ce.1VzFIN7Oxc.gif">
+<div class="col-sm-5" id="left">
+<img class="img-responsive" src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_lat_raise.gif.pagespeed.ce.1VzFIN7Oxc.gif">
 </div>
-<div class="col-sm-4">
+<div class="col-sm-2">
 <h1>Shoulders</h1>
 </div>
-<div class="col-sm-4" id="right">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_shoulder_press.gif.pagespeed.ce.wAOdASmdsp.gif">
+<div class="col-sm-5" id="right">
+<img class="img-responsive" src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_shoulder_press.gif.pagespeed.ce.wAOdASmdsp.gif">
 </div>
 </div>
+</div>
+
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-4">
 <h2>Dumbbell Shoulder Press</h2>
-<video id="vid1" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid1" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\ShoulderPress.mp4" type="video/mp4">
-</video>
-</div>
-<div class="col-sm-4">
-<h2>Lateral Raise</h2>
-<video id="vid2" width="320" height="240" controls>
-  <source src="C:\Users\Chandika Guruge\Downloads\LateralRaise.mp4" type="video/mp4">
-</video>
-</div>
-<div class="col-sm-4">
-<h2>Shrugs</h2>
-<video id="vid3" width="320" height="240" controls>
-  <source src="C:\Users\Chandika Guruge\Downloads\Shrugs.mp4" type="video/mp4">
 </video>
 </div>
 </div>
 
+<div class="col-sm-4">
+<h2>Lateral Raise</h2>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid2" class="embed-responsive-item" width="320" height="240" controls>
+  <source src="C:\Users\Chandika Guruge\Downloads\LateralRaise.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+
+<div class="col-sm-4">
+<h2>Shrugs</h2>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid3" class="embed-responsive-item" width="320" height="240" controls>
+  <source src="C:\Users\Chandika Guruge\Downloads\Shrugs.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</div>
+</div>
+
 <h4>Excercise Tracker: Click Away To Keep Track</h4>
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-4">
 <h5>Dumbell Shoulder Press: 4 Sets X 10 Reps</h5>
@@ -134,40 +155,52 @@
 </div>
 </div>
 
+<div class="container-fluid">
 <div class="row text-center">
-<div class="col-sm-4" id="left">
-<img src="http://www.lanetechaquatics.org/workouts/Workout_killer_files/Abdominal%2520Crunch5.gif">
+<div class="col-sm-5" id="left">
+<img class="img-responsive" src="http://www.exerciseplace.org/sitebuildercontent/sitebuilderpictures/Exercises/CBKneelingCrunch.gif">
 </div>
-<div class="col-sm-4">
+<div class="col-sm-2">
 <h1>Abs</h1>
 </div>
-<div class="col-sm-4" id="right">
-<img src="http://www.exerciseplace.org/sitebuildercontent/sitebuilderpictures/Exercises/CBKneelingCrunch.gif">
+<div class="col-sm-5" id="right">
+<img class="img-responsive" src="http://www.fitnessgenerator.com/images/exercises/DBSideBend.gif">
 </div>
 </div>
 
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-4">
 <h2>Machine Crunch</h2>
-<video id="vid4" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid4" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\MachineCrunch.mp4" type="video/mp4">
 </video>
 </div>
+</div>
+
 <div class="col-sm-4">
 <h2>Cable Crunch</h2>
-<video id="vid5" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid5" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\CableCrunch.mp4" type="video/mp4">
 </video>
 </div>
+</div>
+
 <div class="col-sm-4">
 <h2>Dumbbell Side Bend</h2>
-<video id="vid6" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid6" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\SideBend.mp4" type="video/mp4">
 </video>
 </div>
 </div>
+</div>
+</div>
 
 <h4>Excercise Tracker: Click Away To Keep Track</h4>
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-4">
 <h5>Machine Crunch: 4 Sets X 10 Reps</h5>
@@ -191,42 +224,47 @@
 <p>Dumbell Side Bend 10 Reps</p>
 </div>
 </div>
+</div>
 
 <div class="gallery" align="center">
 	<h1>Additional Exercises</h1>
 	<h2>Shoulders</h2>
 	<br/>
-	
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-sm-12">
 	<div class="top">
 	<div class="thumbnails">
-		<div class="img">
+		<div class="img-responsive center-block">
 		<div class="desc">Shrugs</div>
 		<img onmouseover="preview.src=img1.src" name="img1" src="http://cms.bbcomcdn.com/fun/images/2015/how-to-build-monster-traps-graphics-db-shrug.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block">
 		<div class="desc">Delt Raise</div>
 		<img onmouseover="preview.src=img2.src" name="img2" src="http://seannal.com/images/bent-over-rear-delt-raises.jpg" alt="" width="125"/>
 		</div>
 		
-		<div class="img">
+		<div class="img-responsive center-block">
 		<div class="desc">High Pullback</div>
 		<img onmouseover="preview.src=img3.src" name="img3" src="http://cms.bbcomcdn.com/fun/images/2015/true-muscle-phase-3-overview-graphics-2.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block">
 		<div class="desc">Cable Raise</div>
 		<img onmouseover="preview.src=img4.src" name="img4" src="http://fitnedio.com/wp-content/uploads/2016/02/Front-Cable-Raise.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block">
 		<div class="desc">Lateral Raise</div>
 		<img onmouseover="preview.src=img5.src" name="img5" src="http://cdn-maf0.heartyhosting.com/sites/muscleandfitness.com/files/Dumbbell-Lateral-Raise.jpg" alt="" width="125"/>
 		</div>
 		</div>
-
+		</div>
+		</div>
+		</div>
 	</div><br/>
-
+<div class="container-fluid">
 <div class="row">
 
 <div class="col-sm-1">
@@ -235,43 +273,48 @@
 
 <div class="col-sm-10" id="holder">
 <div class="preview" align="center">
-<img name="preview" src="http://cdn-maf0.heartyhosting.com/sites/muscleandfitness.com/files/Dumbbell-Lateral-Raise.jpg" alt="" height="500" id="slideshow"/>
+<img class="img-responsive center-block" name="preview" src="http://cms.bbcomcdn.com/fun/images/2015/how-to-build-monster-traps-graphics-db-shrug.jpg" alt="" id="slideshow"/>
 </div>
 </div>
 
 <div class="col-sm-1">
 <img src='http://kimjoyfox.com/blog/wp-content/uploads/arrowRightGrey.png' id='rightArrow' />
 </div>
-
 </div>
-
+</div>
+	
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-sm-12">
 	<div class="bottom">
 	<div class="thumbnails">
-		<div class="img">
+		<div class="img-responsive center-block">
 		<img onmouseover="preview.src=img6.src" name="img6" src="http://www.md-health.com/images/10416579/lower-ab-workouts-for-men-06.jpg" alt="" width="125"/>
-		<div class="desc">Lower Abs</div>
+		<div class="desc">Ball Crunch</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block">
 		<img onmouseover="preview.src=img7.src" name="img7" src="http://build-muscle-101.com/wp-content/uploads/2014/12/Cross-Body-Crunch.jpg" alt="" width="125"/>
 		<div class="desc">Body Crunch</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block">
 		<img onmouseover="preview.src=img8.src" name="img8" src="https://www.popworkouts.com/wp-content/uploads/2012/11/bicycle-crunches-exercise2.jpg" alt="" width="125"/>
 		<div class="desc">Bicycle Crunch</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block">
 		<img onmouseover="preview.src=img9.src" name="img9" src="https://s-media-cache-ak0.pinimg.com/originals/99/dc/ed/99dced419b563238f74c08421ecf64b1.jpg" alt="" width="125"/>
 		<div class="desc">Wood Chopper</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block">
 		<img onmouseover="preview.src=img10.src" name="img10" src="http://cdn-mf0.heartyhosting.com/sites/mensfitness.com/files/styles/photo_gallery_full/public/30-best-ab-exercises-dip-leg-raise_0.jpg?itok=lKBWk9yu" alt="" width="125"/>
 		<div class="desc">Dip Leg Raise</div>
 		</div>
-
+		</div>
+		</div>
+		</div>
 		</div>
 		</div>
 
