@@ -5,10 +5,9 @@
   background-size: cover;
 }
 
-.container {
+.jumbotron h1, .jumbotron p {
   position: relative;
   top: 325px;
-  right: 70px;
 }
 
 .navbar {
@@ -19,6 +18,8 @@
     width: 100%;
     z-index: 40;
 }
+
+
 
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand { 
@@ -36,20 +37,12 @@
     background-color:#6b6b47 !important;
 }
 
-
-
 .navbar {
     font-family: Montserrat, sans-serif;
 }
 
-
 .jumbotron h1, p {
     color: white;
-}
-
-.image {
-  position: relative;
-  top: 40px;
 }
 
 #muscles {
@@ -63,11 +56,6 @@
   font-size: 30px;
 }
 
-.col-sm-4 li {
-  position:relative;
-  left: 40px;
-}
-
 .row {
   margin-top: 40px;
 }
@@ -76,47 +64,16 @@
   margin-bottom: 50px;
 }
 
-
-.col-sm-4 h1 {
-  position: relative;
-  top: 50px;
-}
-
-#left {
-  position:relative;
-  left: 190px;
-}
-
-#right {
-  position:relative;
-  left: -190px;
-}
-
-h4 {
-  position: relative;
-  top: 20px;
-}
-
 .row p {
   color: black;
   cursor: pointer;
 }
 
-
-.img {
-position: relative;
-float: right;
-clear: none;
-right:315px;
-}
-
 .thumbnails img {
-/*  position:relative;  */
-  right: 200px;
   height: 80px;
   border: 4px solid #555;
   padding: 1px;
-  margin: 0px 10px 10px 0;
+  margin: 0px 10px 10px 0px;
 }
 
 .thumbnails img:hover {
@@ -124,80 +81,117 @@ right:315px;
   cursor: pointer;
 }
 
+.desc {
+padding: 15px;
+text-align: center;
+}
 
-.preview img { 
-  position: relative;
+
+
+.img-responsive {
+display: inline-block;
+}
+
+
+.thumbnails img {
+  height: 80px;
+  border: 4px solid #555;
+  padding: 1px;
+  margin: 0px 10px 0px 0px;
+}
+
+.thumbnails img:hover {
+  border: 4px solid #00ccff;
+  cursor: pointer;
+}
+
+.preview img {  
   border: 4px solid #444;
   padding: 1px;
   width: 722px;
-  right: 5px;
-}
+ }
 
-#child .NextButton
-{
-   position: absolute;
-   top: 50%;
-   right: 2%;
-}
 
-#child .PreButton
-{
-    position: absolute;
-    top: 50%;
-    left: 2%;
-}
-
-#slideshow { 
-position:relative;
-right: -35px;
+#slideshow {  
 height:500px; 
 width:680px; 
 }
 
-#holder { 
-position:relative;
-right: -300px;
-height:500px; 
+@media (max-width: 480px){
+  #slideshow {  
+height:200px; 
 width:680px; 
-margin-bottom: 20px;
-} 
-
-#leftArrow {
-position:relative;
-right:-200px;
-top: 340px;
-cursor: pointer;
+}
 }
 
-#rightArrow {
-position:relative;
-right: -400px;
-top: 220px;
-cursor: pointer;
-}
-
-
-.text p {
-position: relative;
-float: left;
-clear: none;
-right: -330px;
-margin-right: 35px;
-} 
-
-
-.desc {
-    padding: 15px;
-    text-align: center;
-}
 
 #bicep {
-  position:relative;
-  right: -350px;
-  top: 150px;
+  margin: 60px;
 }
 
-.gallery {
+
+ @media (min-width: 1100px) {
+
+#rightArrow {
   position: relative;
-  top: 80px;
+  top: 230px;
+  right: 160px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+#leftArrow {
+  position: relative;
+  top: 230px;
+  right: -140px;
+  margin-right: 60px;
+  cursor: pointer;
+}}
+
+@media (min-width: 769px) and (max-width: 1099px) {
+#rightArrow {
+  position: relative;
+  top: 230px;
+  right: 80px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+#leftArrow {
+  position: relative;
+  top: 230px;
+  right: -40px;
+  margin-right: 60px;
+  cursor: pointer;
+}}
+
+@media (max-width: 768px){
+  #rightArrow {
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#leftArrow {
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+}
+
+@media (min-width: 1150px){
+
+#left {
+  position: relative;
+  left: 150px;
+}
+
+#right {
+  position: relative;
+  left: -150px;
+}
+}
+
+@media (min-width: 768px) {
+  .col-sm-2 {
+    position: relative;
+    top: 40px;
+  }
 }
