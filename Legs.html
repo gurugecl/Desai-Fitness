@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ;ang="en">
+<html lang="en">
 <head>
 	<title>Desai Fitness</title>
 	<meta charset="utf-8">
@@ -21,11 +21,18 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">DESAI Fitness</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 		</div>
+		<div class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">
 			<li><a href="Desai.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 			<li><a href="Nutrition.html">Nutrition</a></li>
-			<li><a href="#">Chest/Triceps</a></li>
+			<li><a href="ChestTriceps.html">Chest/Triceps</a></li>
 			<li><a href="BackBiceps.html">Back/Biceps</a></li>
 			<li><a href="Shoulders.html">Shoulders/Abs</a></li>
 			<li class="active"><a href="Legs.html">Legs</a></li>
@@ -35,18 +42,20 @@
 			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 		</ul>
+		</div>
 	</div>
 </nav>
 
 <div class="jumbotron">
-	<div class="container">
+	<div class="container-fluid">
 		<h1>Legs</h1>
 		<p>Day Five</p>
 	</div>
 </div>
 
+<div class="container-fluid">
 <div class="row">
-	<div class="col-sm-5">
+	<div class="col-sm-4">
 		<div id="muscles">
 			<h1>Major Muscles Worked</h1>
 				<ul>
@@ -67,49 +76,61 @@
 				</ul>
 		</div>
 	</div>
-<div class="col-sm-7">
-<div class="image">
-	<img src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Quads-full.jpg" alt="Chest" width="350" height="500">
-	<img src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Hamstrings-full.jpg" alt="Chest" width="350" height="500">
+<div class="col-sm-8">
+	<img class="img-responsive" src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Quads-full.jpg" alt="Chest" width="350" height="500">
+	<img class="img-responsive" src="https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/musclegroups/full/Hamstrings-full.jpg" alt="Chest" width="350" height="500">
 </div>
 </div>
 </div>
 
 <div class="videos text-center">
-
+<div class="container-fluid">
 <div class="row">
-<div class="col-sm-4" id="left">
-<img src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_squat.gif.pagespeed.ce.soeR_aVZkv.gif">
+<div class="col-sm-5" id="left">
+<img class="img-responsive" src="http://www.sport-fitness-advisor.com/images/dumbbell_exercises_squat.gif.pagespeed.ce.soeR_aVZkv.gif">
 </div>
-<div class="col-sm-4">
+<div class="col-sm-2">
 <h1>Quads</h1>
 </div>
-<div class="col-sm-4" id="right">
-<img src="http://www.sport-fitness-advisor.com/images/golf_weight_training_lunges.gif.pagespeed.ce.FkY8GUiN9S.gif">
+<div class="col-sm-5" id="right">
+<img class="img-responsive" src="http://www.sport-fitness-advisor.com/images/golf_weight_training_lunges.gif.pagespeed.ce.FkY8GUiN9S.gif">
 </div>
 </div>
+</div>
+
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-4">
 <h2>Squat</h2>
-<video id="vid1" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid1" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\Squat.mp4" type="video/mp4">
 </video>
 </div>
+</div>
+
 <div class="col-sm-4">
 <h2>Leg Press</h2>
-<video id="vid2" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid2" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\LegPress.mp4" type="video/mp4">
 </video>
 </div>
+</div>
+
 <div class="col-sm-4">
 <h2>Lunges</h2>
-<video id="vid3" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid3" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\Lunge.mp4" type="video/mp4">
 </video>
 </div>
 </div>
+</div>
+</div>
 
 <h4>Excercise Tracker: Click Away To Keep Track</h4>
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-4">
 <h5>Squat: 4 Sets X 10 Reps</h5>
@@ -133,40 +154,55 @@
 <p>Lunges 10 Reps</p>
 </div>
 </div>
+</div>
 
+<div class="container-fluid">
 <div class="row text-center">
-<div class="col-sm-4" id="leftI">
-<img src="http://2.bp.blogspot.com/_7DCKTdLw52g/R4g4ciz16VI/AAAAAAAAAUI/1sBkeFBPWU4/s320/hex+bar+deadlift.gif">
+<div class="col-sm-5" id="left">
+<img class="img-responsive" src="http://2.bp.blogspot.com/_7DCKTdLw52g/R4g4ciz16VI/AAAAAAAAAUI/1sBkeFBPWU4/s320/hex+bar+deadlift.gif">
 </div>
-<div class="col-sm-4">
-<h1>Hamstrings/Calves</h1>
+<div class="col-sm-2">
+<h1 id="long">Hamstrings + Calves</h1>
 </div>
-<div class="col-sm-4" id="rightI">
-<img src="http://www.fitnessgenerator.com/images/exercises/kneeraise.gif">
+<div class="col-sm-5" id="right">
+<img class="img-responsive" src="http://www.fitnessgenerator.com/images/exercises/kneeraise.gif">
 </div>
 </div>
+</div>
+
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-4">
 <h2>Deadlift</h2>
-<video id="vid4" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid4" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\Deadlift.mp4" type="video/mp4">
 </video>
 </div>
+</div>
+
 <div class="col-sm-4">
 <h2>Leg Curl</h2>
-<video id="vid5" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid5" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\LegCurl.mp4" type="video/mp4">
 </video>
 </div>
+</div>
+
 <div class="col-sm-4">
 <h2>Calf Raises</h2>
-<video id="vid6" width="320" height="240" controls>
+<div class="embed-responsive embed-responsive-16by9">
+<video id="vid6" class="embed-responsive-item" width="320" height="240" controls>
   <source src="C:\Users\Chandika Guruge\Downloads\CalfRaise.mp4" type="video/mp4">
 </video>
 </div>
 </div>
+</div>
+</div>
 
 <h4>Excercise Tracker: Click Away To Keep Track</h4>
+<div class="container-fluid">
 <div class="row">
 <div class="col-sm-4">
 <h5>Deadlift: 4 Sets X 10 Reps</h5>
@@ -195,78 +231,86 @@
 	<h1>Additional Exercises</h1>
 	<h2>Quads</h2>
 	<br/>
-	
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-sm-12">
 	<div class="top">
 	<div class="thumbnails">
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<div class="desc">Bulgarian Squat</div>
 		<img onmouseover="preview.src=img1.src" name="img1" src="https://stefaniemariefit.files.wordpress.com/2015/05/bulgarian-db-split-squat.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<div class="desc">Dumbell Lunge</div>
 		<img onmouseover="preview.src=img2.src" name="img2" src="http://bodybuildingadvisor.com/wp-content/uploads/2015/09/stretching-exercises-for-quadriceps.jpg" alt="" width="125"/>
 		</div>
 		
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<div class="desc">Front Squat</div>
 		<img onmouseover="preview.src=img3.src" name="img3" src="http://www.bodybuilding.com/images/2016/february/build-monster-legs-with-this-workout-graphics-4.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<div class="desc">Leg Raise</div>
 		<img onmouseover="preview.src=img4.src" name="img4" src="http://cms.bbcomcdn.com/fun/images/2014/8-techniques-to-build-monster-quads-4.jpg" alt="" width="125"/>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<div class="desc">Romanian Deadlift</div>
 		<img onmouseover="preview.src=img5.src" name="img5" src="http://cms.bbcomcdn.com/fun/images/2015/3-essential-moves-for-powerhouse-hamstrings_graphics-romanian.jpg" alt="" width="125"/>
 		</div>
 		</div>
-
+		</div>
+		</div>
+		</div>
 	</div><br/>
 
+<div class="container-fluid">
 <div class="row">
 
 <div class="col-sm-1">
-<img src='http://kimjoyfox.com/blog/wp-content/uploads/arrowLeftGrey.png' id='leftArrow' />
+<img class="img-responsive" src='http://kimjoyfox.com/blog/wp-content/uploads/arrowLeftGrey.png' id='leftArrow' />
 </div>
 
 <div class="col-sm-10" id="holder">
 <div class="preview" align="center">
-<img name="preview" src="http://cms.bbcomcdn.com/fun/images/2015/3-essential-moves-for-powerhouse-hamstrings_graphics-romanian.jpg" alt="" height="500" id="slideshow"/>
+<img class="img-responsive center-block" name="preview" src="https://stefaniemariefit.files.wordpress.com/2015/05/bulgarian-db-split-squat.jpg" alt="" height="500" id="slideshow"/>
 </div>
 </div>
 
 <div class="col-sm-1">
-<img src='http://kimjoyfox.com/blog/wp-content/uploads/arrowRightGrey.png' id='rightArrow' />
+<img class="img-responsive" src='http://kimjoyfox.com/blog/wp-content/uploads/arrowRightGrey.png' id='rightArrow' />
+</div>
+</div>
 </div>
 
-</div>
-
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-sm-12">
 	<div class="bottom">
 	<div class="thumbnails">
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<img onmouseover="preview.src=img6.src" name="img6" src="http://www.cutandjacked.com/sites/default/files/images/articles/Calve_Guide/2%20seated%20calve%20raise.jpg" alt="" width="125"/>
 		<div class="desc">Seated Calf Raise</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<img onmouseover="preview.src=img7.src" name="img7" src="http://www.bodybuilding.com/fun/images/2013/how-squats-are-superior-to-leg-press-1.jpg" alt="" width="125"/>
 		<div class="desc">Wide Leg Press</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<img onmouseover="preview.src=img8.src" name="img8" src="http://cms.bbcomcdn.com/fun/images/2015/8-ways-to-build-bigger-and-stronger-hamstrings-cellucor-graphic-1.jpg" alt="" width="125"/>
 		<div class="desc">Lying Curl</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<img onmouseover="preview.src=img9.src" name="img9" src="http://cms.bbcomcdn.com/fun/images/2015/3-essential-moves-for-powerhouse-hamstrings_graphics-hip-thrust.jpg" alt="" width="125"/>
 		<div class="desc">Hip Thrust</div>
 		</div>
 
-		<div class="img">
+		<div class="img-responsive center-block"">
 		<img onmouseover="preview.src=img10.src" name="img10" src="http://www.myprotein.com/thezone/wp-content/uploads/seated-hamstring-curls1.jpg" alt="" width="125"/>
 		<div class="desc">Hamstring Curl</div>
 		</div>
@@ -275,7 +319,7 @@
 		</div>
 
  <div id="bicep">
- <h2>Hamstrings/Calves</h2>
+ <h2>Hamstrings + Calves</h2>
  </div>
 
 </div>
@@ -289,7 +333,6 @@ document.getElementById('vid5').currentTime = 5;
 document.getElementById('vid6').currentTime = 4;
 </script>
 <script src="Legs.js"></script> 
-
 </body>
 </html>
 
