@@ -5,10 +5,9 @@
   background-size: cover;
 }
 
-.container {
-	position: relative;
-	top: 325px;
-  right: 70px;
+.jumbotron h1, .jumbotron p {
+  position: relative;
+  top: 325px;
 }
 
 .navbar {
@@ -46,12 +45,9 @@
 .jumbotron h1, p {
     color: black;
 }
+@media (min-width: 480px){
 
 .nutrition {
-  margin: 40px;
-}
-
-.row {
   margin: 40px;
 }
 
@@ -59,12 +55,68 @@
   margin-left: 40px;
 }
 
-#food {
-  margin-top: 40px;
-}
-
 .nutrition img {
   position: relative;
   right:-200px;
   top: 20px;
+}}
+
+@media (max-width: 480px){
+.nutrition img {
+  margin-bottom: 20px;
 }
+.menu h1 {
+  text-align: center;
+}
+}
+
+.row {
+  margin: 40px;
+}
+
+#food {
+  margin-top: 40px;
+}
+
+
+
+@media (min-width: 992px) {
+.pic {
+  height: 230px;
+}
+
+.up {
+  position: relative;
+  height: 250px;
+  top: -15px;
+}}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pic {
+    height: 150px;
+  }
+  .up {
+  position: relative;
+  height: 160px;
+  top: -10px;
+}
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+  .pic {
+    height: 250px;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 479px){
+  .pic {
+    height: 150px;
+  }
+}
+
+@media (max-width: 300px){
+  .pic {
+    height: 75px;
+  }
+}
+
